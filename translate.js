@@ -9,6 +9,10 @@ function changeBaseGap(gap) {
 	document.documentElement.style.setProperty('--base-gap', gap + 'rem')
 }
 
+function changeLineHeight(height) {
+	document.documentElement.style.setProperty('--line-height', height + 'rem')
+}
+
 function getQueryLanguage() {
 	const urlParams = new URLSearchParams(window.location.search)
 	return urlParams.get('lang')
@@ -43,6 +47,9 @@ async function applyTranslations() {
 	const lang = getUserLanguage()
 
 	if (lang === 'fr' || 'es' || 'de' || 'pt') {
+		if (lang === 'de') {
+			changeLineHeight(0.7)
+		}
 		changeBaseFontSize(0.85)
 		changeBaseGap(0.5)
 	}
