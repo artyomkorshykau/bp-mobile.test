@@ -20,5 +20,3 @@
   <img src="https://raw.githubusercontent.com/artyomkorshykau/bp-mobile.test/assets/ip-14pro/pt.png" width="100">
 </p>
 
-- Переключатель "Enable free trial" без перевода, т.к. в языковых файлах не было этой строки.
-- Все примеры, это скриншоты из DevTools бразуера.
