@@ -22,3 +22,4 @@
 
 - Переключатель "Enable free trial" без перевода, т.к. в языковых файлах не было этой строки.
 - Все примеры, это скриншоты из DevTools бразуера.
+- Vercel: bp-mobile-test-tau.vercel.app
