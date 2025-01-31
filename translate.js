@@ -34,7 +34,7 @@ function getUserLanguage() {
 
 async function loadTranslations(lang) {
 	try {
-		const response = await fetch(`./src/assets/locales/${lang}.json`)
+		const response = await fetch(`./locales/${lang}.json`)
 		if (!response.ok) throw new Error('Translation file not found')
 		return await response.json()
 	} catch (error) {
