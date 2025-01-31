@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="stylesheet" href="./style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BP Mobile</title>
+	</head>
+	<body>
+		<main id="app" class="app">
+			<a class="cross" href="#">
+				<img src="./src/assets/icons/cross.svg" alt="cross" />
+			</a>
+			<h1 class="title" data-i18n="Get Unlimited <br>Access"></h1>
+			<section>
+				<div class="pagination">
+					<div></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+				<div class="features">
+					<div class="feature">
+						<img src="./src/assets/images/features/f1-2x.png" alt="f1" />
+						<span class="feature-title" data-i18n="Unlimited Art <br>Creation"></span>
+					</div>
+					<div class="feature">
+						<img src="./src/assets/images/features/f2-2x.png" alt="f2" />
+						<span class="feature-title" data-i18n="Exclusive <br>Styles"></span>
+					</div>
+					<div class="feature">
+						<img src="./src/assets/images/features/f3-2x.png" alt="f3" />
+						<span class="feature-title" data-i18n="Magic Avatars <br>With 20% Off"></span>
+					</div>
+				</div>
+			</section>
+			<div class="trial-switcher">
+				<span class="switcher-title" data-i18n="">Enable free trial</span>
+				<div class="switch">
+					<div></div>
+				</div>
+			</div>
+			<div class="subscriptions-wrapper">
+				<div class="subscription">
+					<div class="best-offer" data-i18n="BEST OFFER"></div>
+					<div class="yearly">
+						<span class="subscription-title" data-i18n="YEARLY ACCESS"></span>
+						<p class="subscription-subtitle" data-i18n="Just {{price}} per year" data-price="$39.99"></p>
+					</div>
+					<p class="price" data-i18n="{{price}} <br>per week" data-price="$0.48"></p>
+				</div>
+				<div class="subscription">
+					<span class="subscription-title" data-i18n="WEEKLY ACCESS"></span>
+					<p class="price" data-i18n="{{price}} <br>per week" data-price="$6.99"></p>
+				</div>
+			</div>
+			<button class="continue" data-i18n="Continue"></button>
+			<footer>
+				<a href="#" class="link" data-i18n="Terms of Use"></a>
+				<a href="#" class="link" data-i18n="Privacy Policy"></a>
+				<a href="#" class="link" data-i18n="Restore"></a>
+			</footer>
+		</main>
+		<script type="module" src="/main.js"></script>
+		<script type="module" src="/translate.js"></script>
+	</body>
+</html>
